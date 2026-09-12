@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "portfolio-server",
   "version": "1.0.0",
   "description": "Backend server for portfolio email service",
@@ -14,47 +13,5 @@
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
     "nodemailer": "^7.0.9"
-=======
-  "name": "rakib-portfolio",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "aos": "^3.0.0-beta.6",
-    "firebase": "^12.4.0",
-    "framer-motion": "^11.18.2",
-    "lottie-react": "^2.4.1",
-    "nodemailer": "^6.10.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-icons": "^5.5.0",
-    "react-router": "^7.1.1",
-    "react-scroll": "^1.9.0",
-    "react-sweetalert2": "^0.6.0",
-    "react-toastify": "^11.0.3",
-    "react-type-animation": "^3.2.0"
-  },
-  "devDependencies": {
-    "@eslint/js": "^9.17.0",
-    "@types/react": "^18.3.18",
-    "@types/react-dom": "^18.3.5",
-    "@vitejs/plugin-react": "^4.3.4",
-    "autoprefixer": "^10.4.20",
-    "daisyui": "^4.12.23",
-    "eslint": "^9.17.0",
-    "eslint-plugin-react": "^7.37.2",
-    "eslint-plugin-react-hooks": "^5.0.0",
-    "eslint-plugin-react-refresh": "^0.4.16",
-    "globals": "^15.14.0",
-    "postcss": "^8.4.49",
-    "tailwindcss": "^3.4.17",
-    "vite": "^6.0.5"
->>>>>>> 1a7a58acaef8e578928004990629b4cd1fdab8d2
   }
 }

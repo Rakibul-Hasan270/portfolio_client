@@ -6,7 +6,7 @@ import { TypeAnimation } from "react-type-animation";
 const Banner = () => {
     const notify = () => toast("The resume has been downloaded.");
     return (
-        <div className="md:flex justify-between items-center mt-10 gap-4 space-y-10 md:space-y-16">
+        <div className="min-h-screen flex flex-col md:flex-row justify-center items-center bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-900 text-white p-6">
             <div className="flex-grow space-y-5">
                 <h3 className="text-3xl md:text-5xl font-bold text-center md:text-start">I'm Rakibul Hasan</h3>
 
@@ -35,10 +35,10 @@ const Banner = () => {
                     </a>
                 </div>
             </div>
-            <div className="mx-auto rounded-full w-7/12 md:w-4/12 border-4 border-pink-800">
+            <div className="mx-auto rounded-full w-7/12 md:w-4/12 border-4 border-pink-800 shadow-lg transform hover:scale-105 transition-transform duration-300">
                 <img className="rounded-full" src={img} alt="" />
             </div>
-            <ToastContainer></ToastContainer>
+            <ToastContainer />
         </div>
     );
 };

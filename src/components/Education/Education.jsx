@@ -46,6 +46,22 @@ const Education = () => {
                     </p>
                 </div>
             </div>
+            <div data-aos="fade-up" data-aos-duration="1200" className="flex gap-10">
+                <div className="flex-1 hidden md:block"></div>
+                <div className="flex flex-col items-center md:order-none order-first">
+                    <div className="h-5 w-5 rounded-full bg-pink-800"></div>
+                    <div className="h-36 w-[2px] bg-pink-800"></div>
+                </div>
+                <div className="flex-1 space-y-2">
+                    <h3 className="text-xl font-semibold text-start ">Deveofs</h3>
+                    <p className="text-start">
+                        Ostad Platform
+                    </p>
+                    <p className="text-start">
+                        April 2025 - September 2025
+                    </p>
+                </div>
+            </div>
             {/* third  */}
             <div data-aos="fade-up" data-aos-duration="1500" className="flex gap-10">
                 <div className="flex-1 space-y-2">
